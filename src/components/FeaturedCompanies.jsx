@@ -25,11 +25,11 @@ function FeaturedCompanies() {
 
       <div className="max-w-6xl mx-auto text-center">
 
-        <h2 className="text-3xl font-bold mb-6">Featured Companies Actively Hiring</h2>
+        <h2 className="text-3xl font-bold mb-6 underline ">Featured Companies Actively Hiring</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {companies.map((company, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+            <div key={index} className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
 
               <h3 className="text-xl font-semibold mb-2">{company.name}</h3>
 

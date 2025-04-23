@@ -21,7 +21,7 @@ function FeaturedCompanies() {
   ];
 
   return (
-    <section className="py-12 ">
+    <div className="py-12 ">
 
       <div className="max-w-6xl mx-auto text-center">
 
@@ -42,7 +42,7 @@ function FeaturedCompanies() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
